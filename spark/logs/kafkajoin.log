@@ -1,0 +1,931 @@
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------+-----+-----+---------+
+|customer|score|email|birthYear|
++--------+-----+-----+---------+
++--------+-----+-----+---------+
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++--------+-----+-----+---------+
+|customer|score|email|birthYear|
++--------+-----+-----+---------+
++--------+-----+-----+---------+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------+-----+-----+---------+
+|customer|score|email|birthYear|
++--------+-----+-----+---------+
++--------+-----+-----+---------+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++--------+-----+-----+---------+
+|customer|score|email|birthYear|
++--------+-----+-----+---------+
++--------+-----+-----+---------+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-11.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 15.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -4.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| 28.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -1.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 22.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-17.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|  2.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  5.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 20.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -1.5|Gail.Harris@test.com|     1955|
+|Larry.Gonzalez@te...|-39.0|Larry.Gonzalez@te...|     1946|
+|Spencer.Spencer@t...| -3.0|Spencer.Spencer@t...|     1940|
+|David.Spencer@tes...| 28.5|David.Spencer@tes...|     1945|
+|Larry.Sanchez@tes...|-24.0|Larry.Sanchez@tes...|     1942|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 5
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -2.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-24.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...|-12.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -3.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 25.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.5|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 13.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -1.5| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -6.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|-15.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 14.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -6.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -2.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -2.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  6.5|John.Khatib@test.com|     1948|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 6
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -1.5|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 24.0|Travis.Olson@test...|     1949|
+|Travis.Olson@test...|  1.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -3.0|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -4.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  9.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| -3.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.5|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -4.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-21.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| -1.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -5.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -6.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-21.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 44.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| 20.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -6.0|David.Phillips@te...|     1960|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -2.0|Senthil.Hansen@te...|     1956|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 7
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -8.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -5.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| -3.0|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|-19.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 14.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|-21.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -5.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-11.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|  9.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| -9.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|-20.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -1.5|David.Phillips@te...|     1960|
+|David.Phillips@te...|  0.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -3.0|Senthil.Hansen@te...|     1956|
+|Jane.Howard@test.com|-33.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|-25.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -9.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -2.0|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 8
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|  2.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...|-14.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -5.0|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -5.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-44.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -1.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-21.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 14.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-36.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -1.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| -4.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 25.0|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com| 24.5|John.Khatib@test.com|     1948|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 9
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|  9.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -4.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-20.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| 14.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -1.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  8.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|  3.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -1.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-18.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|-12.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-15.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|  2.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -3.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  8.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -8.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -3.5|Gail.Harris@test.com|     1955|
+|Larry.Gonzalez@te...|-12.5|Larry.Gonzalez@te...|     1946|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 10
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 36.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...|  0.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 15.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -3.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  8.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 32.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 15.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -2.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -2.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-34.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 24.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|  3.0|John.Khatib@test.com|     1948|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 11
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-32.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-13.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| -9.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 28.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| -7.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 13.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|-15.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 23.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| 14.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -2.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 41.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|  0.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -3.0|Gail.Harris@test.com|     1955|
+|Larry.Gonzalez@te...| 11.5|Larry.Gonzalez@te...|     1946|
+|Larry.Gonzalez@te...|-26.5|Larry.Gonzalez@te...|     1946|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 12
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -0.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| 10.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -1.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -0.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 22.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -1.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -1.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-48.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -3.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -5.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 13.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -0.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  1.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-19.5|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 13
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -2.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-28.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -0.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  8.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|-24.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -1.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| 30.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|  1.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|  2.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  8.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|-21.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-11.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 12.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -4.5|Gail.Harris@test.com|     1955|
+|Larry.Gonzalez@te...|  3.0|Larry.Gonzalez@te...|     1946|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 14
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -7.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| 39.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -1.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -3.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  5.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -9.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -2.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-17.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-38.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -5.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -3.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -4.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  2.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -8.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com| 33.0|John.Khatib@test.com|     1948|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 15
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -6.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 23.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -4.0|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -3.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 33.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|-10.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -1.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  0.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| 30.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-20.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...| 11.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  6.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| 27.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.0|David.Phillips@te...|     1960|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 22.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 14.5|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 16
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -8.0|Travis.Olson@test...|     1949|
+|Travis.Olson@test...|-14.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -1.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| -5.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -1.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -4.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -3.5| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -2.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 20.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|-10.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-12.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -5.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -5.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-11.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 17.0|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|-24.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-13.0|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 17
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -5.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -3.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 25.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| -6.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-45.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|-12.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -0.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-25.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-17.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| 10.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.0|David.Phillips@te...|     1960|
+|David.Phillips@te...| -3.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -3.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| -5.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-23.0|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 18
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 16.0|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| 17.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-21.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.5|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -4.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 15.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com|  0.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -0.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 16.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...| 17.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 24.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -3.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  7.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-11.0|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|  5.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 17.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -1.5|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 19
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -3.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -4.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-17.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|-16.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-14.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|  2.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -1.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -4.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| -1.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|-12.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -5.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  2.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 22.0|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 20
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -2.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-16.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| -2.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -6.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  6.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 19.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|  7.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...| -8.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  4.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-20.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|  0.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|-30.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-11.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -4.5|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 21
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -2.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|  9.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -5.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -5.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 12.0|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| -7.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  9.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| 11.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-18.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-15.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| -9.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -4.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-21.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|  2.0|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 22
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -6.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-15.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| -9.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -4.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 14.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.5|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -4.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -5.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -4.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|  8.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 11.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -4.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| -3.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|  1.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com| 24.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-12.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -2.5|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 23
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -2.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 20.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 41.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|  4.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  9.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| 16.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -2.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  8.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| -3.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -5.0|David.Phillips@te...|     1960|
+|David.Phillips@te...| -5.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -3.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 41.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -8.5|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 24
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -2.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 22.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| -3.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| -6.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -2.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-21.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|  3.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|  6.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-12.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...|  0.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  5.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-12.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|-41.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -9.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -1.5|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 25
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -1.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -0.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-11.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -1.0|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -1.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 11.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|-15.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -3.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-34.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|-13.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -1.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-16.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| -1.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|  5.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -2.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -0.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 26
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -2.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -0.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...|-26.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-13.0|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| -1.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 16.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| 18.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -0.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|  5.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  7.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 17.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 31.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com| 14.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 14.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com|  0.0|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 27
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -5.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -5.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-10.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| 34.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-29.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -2.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 13.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -2.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 13.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 14.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|  5.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -2.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -2.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -2.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 25.0|John.Khatib@test.com|     1948|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 28
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.5|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|  5.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| -5.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| 24.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  0.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -0.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 10.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|-33.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-15.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -1.0|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 13.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-22.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|-20.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-37.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -2.5|Gail.Harris@test.com|     1955|
+|Larry.Gonzalez@te...| -9.0|Larry.Gonzalez@te...|     1946|
+|Larry.Gonzalez@te...|-16.0|Larry.Gonzalez@te...|     1946|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 29
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -1.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-23.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -1.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  3.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -5.5|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -6.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|-23.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|  4.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -0.5| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -1.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| -1.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|-22.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|  2.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -1.5|David.Phillips@te...|     1960|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -0.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -2.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-26.0|John.Khatib@test.com|     1948|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 30
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -1.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|  1.0|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| -8.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -3.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  6.0|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...|  7.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -5.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| 25.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 26.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...| -0.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 32.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -4.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -2.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 12.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 13.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|  7.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 31.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -4.0|Gail.Harris@test.com|     1955|
+|Larry.Gonzalez@te...| 33.5|Larry.Gonzalez@te...|     1946|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 31
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -3.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-29.5|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -4.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -4.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|  1.5|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -5.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -5.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -0.5|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...| -4.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 19.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  0.0|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...|-35.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.0|David.Phillips@te...|     1960|
+|David.Phillips@te...| -1.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.0|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...|  0.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|-17.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| 17.0|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 32
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -1.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| 13.5|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| 47.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -3.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...| 22.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| -3.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -4.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...|  5.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -4.0| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -2.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...| 20.0|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|  0.5|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| -3.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -1.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -0.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com|  1.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-14.5|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com|  9.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-35.0|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com| -3.0|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 33
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -0.5|Edward.Anderson@t...|     1957|
+|Edward.Anderson@t...| -2.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...| -2.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Jacob.Hansen@test...| -2.0|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-49.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Jacob.Lincoln@tes...| -3.0|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -2.0|Suresh.Aristotle@...|     1964|
+|Suresh.Aristotle@...|  8.5|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -1.5| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-12.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...| 24.5|Suresh.Olson@test...|     1963|
+|Suresh.Olson@test...| 13.5|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -2.0|David.Phillips@te...|     1960|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.5|Senthil.Hansen@te...|     1956|
+|Senthil.Hansen@te...| -2.0|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 19.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com|-23.0|Jane.Howard@test.com|     1947|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 34
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Edward.Anderson@t...| -4.0|Edward.Anderson@t...|     1957|
+|Travis.Olson@test...|-26.0|Travis.Olson@test...|     1949|
+|Travis.Olson@test...| 21.0|Travis.Olson@test...|     1949|
+|Jacob.Hansen@test...| -2.5|Jacob.Hansen@test...|     1959|
+|Chris.Khatib@test...|-16.5|Chris.Khatib@test...|     1938|
+|Chris.Khatib@test...| 28.0|Chris.Khatib@test...|     1938|
+|Jacob.Lincoln@tes...| -1.5|Jacob.Lincoln@tes...|     1953|
+|Suresh.Aristotle@...| -3.0|Suresh.Aristotle@...|     1964|
+| Lyn.Hansen@test.com| -2.5| Lyn.Hansen@test.com|     1950|
+| Lyn.Hansen@test.com| -3.0| Lyn.Hansen@test.com|     1950|
+|Edward.Phillips@t...|-29.5|Edward.Phillips@t...|     1941|
+|Edward.Phillips@t...|-25.0|Edward.Phillips@t...|     1941|
+|Suresh.Olson@test...|  8.0|Suresh.Olson@test...|     1963|
+|David.Phillips@te...| -3.5|David.Phillips@te...|     1960|
+|Senthil.Hansen@te...| -1.5|Senthil.Hansen@te...|     1956|
+|John.Khatib@test.com| 21.0|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -6.0|Jane.Howard@test.com|     1947|
+|John.Khatib@test.com| -0.5|John.Khatib@test.com|     1948|
+|Jane.Howard@test.com| -5.5|Jane.Howard@test.com|     1947|
+|Gail.Harris@test.com|  0.0|Gail.Harris@test.com|     1955|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
